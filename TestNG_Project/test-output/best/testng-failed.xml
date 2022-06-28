@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [best]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="trial(failed)">
+    <classes>
+      <class name="testng.TestNG_5">
+        <methods>
+          <include name="galaxy"/>
+        </methods>
+      </class> <!-- testng.TestNG_5 -->
+      <class name="testng.TestNG_7">
+        <methods>
+          <include name="p"/>
+          <include name="s"/>
+        </methods>
+      </class> <!-- testng.TestNG_7 -->
+    </classes>
+  </test> <!-- trial(failed) -->
+</suite> <!-- Failed suite [best] -->

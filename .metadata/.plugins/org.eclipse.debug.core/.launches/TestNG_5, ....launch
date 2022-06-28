@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TestNG_Project"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+        <mapEntry key="testng.Assertion1" value="testcase1"/>
+        <mapEntry key="testng.Assertion2" value="testcase2"/>
+        <mapEntry key="testng.Assertion3" value="testcase3"/>
+        <mapEntry key="testng.Screenshot1" value="main"/>
+        <mapEntry key="testng.TakeSSonFailure_1" value="captureSS"/>
+        <mapEntry key="testng.TakeSSonFailure_2" value="login;TakeSSonfailure"/>
+        <mapEntry key="testng.TestNG_1" value="dog_B;rat_A;cat_C;x"/>
+        <mapEntry key="testng.TestNG_2" value="f;e;d;j;c;i;b;h;a;g"/>
+        <mapEntry key="testng.TestNG_3" value="z;a3;q;a2"/>
+        <mapEntry key="testng.TestNG_4" value="y;x;main;z"/>
+        <mapEntry key="testng.TestNG_5" value="sun;galaxy;solar;star;moon"/>
+        <mapEntry key="testng.TestNG_6" value="race2;race1;race4;race3"/>
+        <mapEntry key="testng.TestNG_7" value="p;s"/>
+        <mapEntry key="testng.Tutorial1" value="Test2;Test1"/>
+        <mapEntry key="testng.Tutorial2" value="first;Test3;last"/>
+        <mapEntry key="testng.Tutorial3" value="Test6login;Test4login;Test5login"/>
+        <mapEntry key="testng.Tutorial4" value="Test7logoff;Test9logoff;Test8logoff"/>
+    </mapAttribute>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="testng.TestNG_2"/>
+        <listEntry value="testng.TestNG_1"/>
+        <listEntry value="testng.TestNG_4"/>
+        <listEntry value="testng.Assertion1"/>
+        <listEntry value="testng.TestNG_3"/>
+        <listEntry value="testng.Assertion2"/>
+        <listEntry value="testng.TestNG_6"/>
+        <listEntry value="testng.Assertion3"/>
+        <listEntry value="testng.TestNG_5"/>
+        <listEntry value="testng.Screenshot1"/>
+        <listEntry value="testng.TestNG_7"/>
+        <listEntry value="testng.TakeSSonFailure_1"/>
+        <listEntry value="testng.Tutorial4"/>
+        <listEntry value="testng.Tutorial3"/>
+        <listEntry value="testng.Tutorial2"/>
+        <listEntry value="testng.TakeSSonFailure_2"/>
+        <listEntry value="testng.Tutorial1"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

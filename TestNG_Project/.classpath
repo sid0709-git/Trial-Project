@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/SOFTWARE/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/SOFTWARE/fileutils_2.13-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/SOFTWARE/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/SOFTWARE/guava-31.1-jre.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

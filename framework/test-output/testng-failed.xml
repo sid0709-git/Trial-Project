@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="validate titile">
+    <classes>
+      <class name="Building.framework.Validate_title"/>
+    </classes>
+  </test> <!-- validate titile -->
+  <test name="validating homepage">
+    <classes>
+      <class name="Building.framework.Homepage"/>
+    </classes>
+  </test> <!-- validating homepage -->
+  <test name="validate titile(failed)" parallel="tests">
+    <classes>
+      <class name="Building.framework.Homepage">
+        <methods>
+          <include name="close"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Building.framework.Homepage -->
+      <class name="Building.framework.Validate_title">
+        <methods>
+          <include name="close"/>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Building.framework.Validate_title -->
+    </classes>
+  </test> <!-- validate titile(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: Trial123.Toss123.TestNG_8
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 72.385 s <<< FAILURE! - in Trial123.Toss123.TestNG_8
+Enterdata(Trial123.Toss123.TestNG_8)  Time elapsed: 40.305 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using id=email
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAZE', ip: '192.168.225.229', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at Trial123.Toss123.TestNG_8.Enterdata(TestNG_8.java:66)
+
+Enterdata(Trial123.Toss123.TestNG_8)  Time elapsed: 15.213 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAZE', ip: '192.168.225.229', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\SIDDHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bcd76d05fa22ff7c5f660d9855e3c05a
+*** Element info: {Using=id, value=email}
+	at Trial123.Toss123.TestNG_8.Enterdata(TestNG_8.java:66)
+

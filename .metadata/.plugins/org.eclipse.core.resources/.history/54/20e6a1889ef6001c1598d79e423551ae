@@ -1,0 +1,13 @@
+Feature: Login into Application
+
+Scenario Outline: Positive Test Validation
+Given Initialize browser with chrome
+And Navigate to "http://qaclickacademy.com" Site
+And click on login link on homepage to land on signin page
+When User enter <Username> and <Passsword> and logs in 
+Then Verify user is successfuly login
+
+Examples:
+|Username																		|Passsword|
+|test99@gmail.com 													|	123456  |
+

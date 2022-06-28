@@ -1,0 +1,32 @@
+package com.facebook.genericPage;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+public class Masterpage {
+	public static WebDriver driver;
+	public Properties prop;
+	public Properties or;
+	
+		//Constructor created
+	public Masterpage() {
+		
+		//Configuration of properties file
+		FileInputStream ip = new FileInputStream (System.getProperty("user.dir")+"C:\\Users\\SIDDHARAM\\eclipse-workspace\\shammi\\src\\main\\java\\com\\facebook\\repository\\configuration.properties");
+		prop=new Properties();
+		prop.load(ip);
+		
+		//Configuration of Locators file
+				FileInputStream fs = new FileInputStream (System.getProperty("user.dir")+"C:\\Users\\SIDDHARAM\\eclipse-workspace\\shammi\\src\\main\\java\\com\\facebook\\repository\\locators.properties");
+				or=new Properties();
+				or.load(fs);
+				
+	if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\SIDDHARAM\\eclipse-workspace\\shammi\\com.facebook.driver\\chromedriver.exe");
+				driver=new ChromeDriver();
+				}
+		
+	}
+}

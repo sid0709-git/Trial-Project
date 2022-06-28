@@ -1,0 +1,54 @@
+package Building.framework;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import pageObject.Landingpage;
+import resources.base;
+
+public class Validate_title extends base {
+	public static Logger log = LogManager.getLogger(base.class.getName());
+	
+	@BeforeTest
+	public void initialize() throws Exception {
+		driver = initializeDriver();
+		log.info("driver is initialize");
+		driver.get(prop.getProperty("url"));	             // here we fetching url from properties file
+		log.info("navigated to home page");
+		//driver.get("http://qaclickacademy.com"); 			// invokes url
+	}
+	
+@Test
+public void basePageNavigation() throws Exception {
+	
+	
+					
+	driver.manage().window().maximize();
+	
+	 Landingpage l= new Landingpage(driver);			//created object of Landingpage
+	 
+	 //compare the text from browser with actual text
+	 Assert.assertEquals(l.getTitle().getText(), "FEATURED COURSES");
+	 log.info("validated text message");
+	 
+	 //check that navigation bar is present on homepage or not
+	// l.getNavbar().isDisplayed();
+	 Assert.assertTrue(l.getNavbar().isDisplayed());
+	
+}
+
+}
+		 
+	 
+	 
+
+
+
+
+
+
+

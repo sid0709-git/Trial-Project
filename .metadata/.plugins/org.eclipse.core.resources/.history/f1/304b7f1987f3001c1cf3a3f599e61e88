@@ -1,0 +1,26 @@
+package com.facebook.genericPage;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class Masterpage {
+	public static WebDriver driver;
+	public Properties prop;
+	public Properties or;
+	
+		//Constructor created
+	public Masterpage() {
+		
+		//Configuration of properties file
+		FileInputStream ip = new FileInputStream (System.getProperty("user.dir")+"C:\\Users\\SIDDHARAM\\eclipse-workspace\\shammi\\src\\main\\java\\com\\facebook\\repository\\configuration.properties");
+		prop=new Properties();
+		prop.load(ip);
+		
+		//Configuration of Locators file
+				FileInputStream fs = new FileInputStream (System.getProperty("user.dir")+"C:\\Users\\SIDDHARAM\\eclipse-workspace\\shammi\\src\\main\\java\\com\\facebook\\repository\\locators.properties");
+				or=new Properties();
+				or.load(fs);
+				
+		
+	}
+}

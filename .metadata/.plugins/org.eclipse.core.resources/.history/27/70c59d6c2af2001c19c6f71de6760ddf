@@ -1,0 +1,48 @@
+package Building.framework;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import pageObject.Landingpage;
+import resources.base;
+
+public class Validate_title extends base {
+	
+	@BeforeTest
+	public void initialize() throws Exception {
+		driver = initializeDriver();
+		driver.get(prop.getProperty("url"));	// here we fetching url from properties file
+		//driver.get("http://qaclickacademy.com"); 			// invokes url
+	}
+	
+@Test
+public void basePageNavigation() throws Exception {
+	
+	
+					
+	driver.manage().window().maximize();
+	
+	 Landingpage l= new Landingpage(driver);			//created object of Landingpage
+	 
+	 //compare the text from browser with actual text
+	 Assert.assertEquals(l.getTitle().getText(), "FEATURED COURSES");
+	 
+	 //check that navigation bar is present on homepage or not
+	// l.getNavbar().isDisplayed();
+	 Assert.assertTrue(l.getNavbar().isDisplayed());
+	
+}
+
+}
+		 
+	 
+	 
+
+
+
+
+
+
+

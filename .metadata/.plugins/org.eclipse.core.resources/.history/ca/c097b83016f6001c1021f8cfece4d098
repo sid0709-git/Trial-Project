@@ -1,0 +1,15 @@
+Feature: Login into Application
+
+Scenario: Positive Test Validation
+
+Given Initialize browser with chrome
+
+And Navigate to "QA Click Academy" Site
+
+And click on login link on homepage to land on signin page
+
+When User enter "test99@gmail.com" and "123456" and logs in 
+
+Then Verify user is successfuly login
+
+

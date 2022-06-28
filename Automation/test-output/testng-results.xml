@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-13T13:18:42 IST" name="Suite" finished-at="2022-06-13T13:18:42 IST" duration-ms="54">
+    <groups>
+    </groups>
+    <test started-at="2022-06-13T13:18:42 IST" name="Test" finished-at="2022-06-13T13:18:42 IST" duration-ms="54">
+      <class name="Maven.Automation.RestAPI_Test">
+        <test-method signature="deleteTwitter()[pri:0, instance:Maven.Automation.RestAPI_Test@5d0a1059]" started-at="2022-06-13T13:18:42 IST" name="deleteTwitter" finished-at="2022-06-13T13:18:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method signature="postjira()[pri:0, instance:Maven.Automation.RestAPI_Test@5d0a1059]" started-at="2022-06-13T13:18:42 IST" name="postjira" finished-at="2022-06-13T13:18:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postjira -->
+      </class> <!-- Maven.Automation.RestAPI_Test -->
+      <class name="Maven.Automation.Selenium_Test">
+        <test-method signature="WebAuto()[pri:0, instance:Maven.Automation.Selenium_Test@7e7be63f]" started-at="2022-06-13T13:18:42 IST" name="WebAuto" finished-at="2022-06-13T13:18:42 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebAuto -->
+        <test-method signature="WebUI()[pri:0, instance:Maven.Automation.Selenium_Test@7e7be63f]" started-at="2022-06-13T13:18:42 IST" name="WebUI" finished-at="2022-06-13T13:18:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebUI -->
+      </class> <!-- Maven.Automation.Selenium_Test -->
+      <class name="Maven.Automation.Appium_Test">
+        <test-method signature="Android()[pri:0, instance:Maven.Automation.Appium_Test@c88a337]" started-at="2022-06-13T13:18:42 IST" name="Android" finished-at="2022-06-13T13:18:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Android -->
+        <test-method signature="IOSapp()[pri:0, instance:Maven.Automation.Appium_Test@c88a337]" started-at="2022-06-13T13:18:42 IST" name="IOSapp" finished-at="2022-06-13T13:18:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSapp -->
+      </class> <!-- Maven.Automation.Appium_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
